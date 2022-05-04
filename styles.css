@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://media.istockphoto.com/photos/green-poker-background-picture-id453187915?k=20&m=453187915&s=612x612&w=0&h=yDGWRSaErS7B6MPaJ8g9PyaH0JqwGk4IfwnKpnsNYEQ=);
+    background-size:cover;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color:goldenrod;
+    font-size:80px;
+}
+
+p{
+    font-size: 48px;
+    color:white;
+    font-weight:bold;
+}
+
+#message-el {
+    font-style:italic;
+}
+
+button{
+    background-color:goldenrod;
+    color:#016f32;
+    font-weight:bold;
+    font-size:48px;
+    padding: 12px 60px;
+    border:none;
+    border-radius:2px;
+}
+
