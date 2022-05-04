@@ -1,3 +1,5 @@
+//VARIABLES
+
 let firstCard = 10
 let secondCard = 12
 let sum = firstCard + secondCard
@@ -7,7 +9,13 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
+
+//FUNCTIONS
+
 function startGame(){
+    sumEl.textContent ="Sum: " + sum
+    cardsEl.textContent= "Cards: " + firstCard + " " + secondCard
+
     if (sum <= 20){
         message = "Do you want to draw a new card? 🙂"
     } else if (sum === 21){
@@ -17,9 +25,13 @@ function startGame(){
         message = "You're out of the game! 😭"
         isAlive = false
     }
-    
+
     // CASH OUT!
     messageEl.textContent = message
-    sumEl.textContent ="Sum: " + sum
-    cardsEl.textContent= "Cards: " + firstCard + " " + secondCard
 }
+
+function newCard(){
+    console.log("Drawing a new card from the deck.")
+}
+
+newCard()
