@@ -1,10 +1,11 @@
-// Check if the person is old enough to enter the nightclub (18)
-// Log suitable message to the console in both cases
+// Check if the person is eligible for a birthday card from the King! 100 Years old.
 
-let age = 17
+let age = 99
 
-if (age >= 18){
-    console.log("Welcome!")
+if (age === 100){
+    console.log("Here is your birthday card from the King!")
+} else if(age < 100){
+    console.log("Ineligible.")
 } else{
-    console.log("You cannot enter the club!")
+    console.log("Ineligible, you have already gotten one.")
 }
