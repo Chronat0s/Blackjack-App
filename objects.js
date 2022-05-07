@@ -1,14 +1,13 @@
-// Objects - store data in-depth - composite / complex data type
-// key-value pairs
+// Create an object that represents an airbnb castle listing.
+// It should contain at least one boolean, one string, one number and one array
+// Log out at least two of the keys using the dot notation
 
-let course ={
-    title: "Learn CSS Grid for free",
-    lessons: 16,
-    creator: "Per Harald Borgen",
-    length: 63,
-    level: 3,
-    isFree:true,
-    tags: ["html", "css"]
+let airbnb = {
+    title: "Live like a king",
+    price: 160,
+    features: ["4 guests", "1 bathroom", "2 beds"],
+    isSuperHost: true
 }
 
-console.log( course["tags"])
+console.log(airbnb.price)
+console.log(airbnb.features)
