@@ -1,5 +1,8 @@
-let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
+let hands = ["rock", "paper", "scissors"]
 
-for (let i = 0; i < largeCountries.length; i++)
+function getHand (){
+    let hand = Math.floor(Math.random() * 3)
+    console.log(hands[hand])
+}
 
-console.log("- " + largeCountries[i])
+getHand()
