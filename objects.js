@@ -1,11 +1,5 @@
-person = {
-    name: "Iraklis",
-    age: 21,
-    country: "Australia"
-}
+let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
 
-function logData(){
-    console.log(person.name + " is " + person.age + " years old and lives in " + person.country)
-}
+for (let i = 0; i < largeCountries.length; i++)
 
-logData()
+console.log("- " + largeCountries[i])
