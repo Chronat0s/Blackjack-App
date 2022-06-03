@@ -36,3 +36,17 @@ button{
     margin: 10px 0;
 }
 
+.card__image{
+    width: 100px;
+    height: 200px;
+    margin: 0 20px;
+}
+
+.cards{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
